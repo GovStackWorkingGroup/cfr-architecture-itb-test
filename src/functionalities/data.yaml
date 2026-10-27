@@ -1,3 +1,5 @@
+id: data
+requirements:
   - title: Use only Unicode for text (previously 5.18)
     observability: OBSERVABLE)
     mutability: IMMUTABLE

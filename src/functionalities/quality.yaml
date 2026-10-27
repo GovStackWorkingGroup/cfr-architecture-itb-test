@@ -1,3 +1,5 @@
+id: quality
+requirements:
   - title: English documentation is provided (previously 5.5)
     observability: AUDITABLE)
     mutability: EXTENSIBLE

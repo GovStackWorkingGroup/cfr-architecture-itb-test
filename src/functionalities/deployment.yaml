@@ -1,3 +1,4 @@
+id: deployment
 requirements:
   - title: Building blocks are deployable as a container 
     observability: AUDITABLE

@@ -1,3 +1,5 @@
+id: security
+requirements:
   - title: Transport security is enforced (previously 5.12)
     observability: OBSERVABLE)
     mutability: IMMUTABLE
