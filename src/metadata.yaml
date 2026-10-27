@@ -1,0 +1,8 @@
+---
+name: CFR Architecture
+abstract: >
+  Lorem ipsum
+url: https://specs.govstack.global/architecture/
+repository: https://github.com/GovStackWorkingGroup/cfr-architecture
+urn: govstack:spec:cfr:architecture
+owner_group:

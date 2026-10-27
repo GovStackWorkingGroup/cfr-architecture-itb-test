@@ -1,0 +1,16 @@
+name: Publish as ITB test suites
+on: [push]
+jobs:
+  Publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v6
+      - name: Run the sctipt
+        uses: GovstackWorkingGroup/itb-integration@v1
+        with:
+          src-path: ./src/
+          itb-url: http://testbed.govstack.global:9000/api/rest
+          itb-org-key: ${{ secrets.ITB_ORG_KEY }}
+          itb-group-key: ${{ secrets.ITB_GROUP_KEY }}
+          itb-domain-key: ${{ secrets.ITB_DOMAIN_KEY }}
