@@ -7,7 +7,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v6
       - name: Run the sctipt
-        uses: GovstackWorkingGroup/itb-integration@c89cb431ad0837b5c25c0d23fa9c2509f1a2070f
+        uses: GovstackWorkingGroup/itb-integration@e361dee44204d6ddfc862d8dbe7e56dfdde870d9
         with:
           src-path: ./src/
           itb-url: https://testbed-staging.govstack.global/api/rest
